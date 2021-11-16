@@ -7,6 +7,13 @@
     only you need to adjust is to change the path in **local_path** in config.ini
 * To check the snapshots just change the expected result to the incorrect option in **main_test.py**
 
+##
+#### Directories
+* helpers: `contain all the aids for running the tests and handling them `
+* pages_elements: `contain all elements from the page with their actions `
+* screenshots: `include all screenshots of failed tests`
+* selenium_tests: `include all tests `
+##
 ****config file location****  
 ```
 $ C:\Home-Assignment\helpers\config\config.ini
