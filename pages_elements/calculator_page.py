@@ -23,22 +23,22 @@ class calculator:
         self.result_component_xpath = '//*[@class="component-display"]'
 
 
-    def button_7(self):
+    def click_button_7(self):
         button_7 = self.driver.find_element_by_xpath(self.button_7_xpath)
         button_7.click()
         return self
 
-    def button_plus(self):
+    def click_button_plus(self):
         button_plus = self.driver.find_element_by_xpath(self.button_plus_xpath)
         button_plus.click()
         return self
 
-    def button_8(self):
+    def click_button_8(self):
         button_8 = self.driver.find_element_by_xpath(self.button_8_xpath)
         button_8.click()
         return self
 
-    def button_equate(self):
+    def click_button_equate(self):
         button_equate = self.driver.find_element_by_xpath(self.button_equate_xpath)
         button_equate.click()
         return self
