@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/helpers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pages_elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/selenium_tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/screenshots" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/helpers/config" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

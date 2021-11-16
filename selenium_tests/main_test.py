@@ -1,11 +1,12 @@
 import unittest
 from base_setup import BaseTestClass
 from calculator_page import calculator
+from wrapper import screenshot_decorator
 
 
 class MainTests(BaseTestClass):
 
-
+    @screenshot_decorator
     def test_cal(self):
         expected_text = "15"
         cal = calculator(driver=self.driver)

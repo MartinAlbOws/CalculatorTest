@@ -1,7 +1,7 @@
 import os
 import unittest
 from selenium import webdriver
-from test_e2e.test_selenium.config import config_path as cp
+from config import config_path as cp
 
 
 class BaseTestClass(unittest.TestCase):
