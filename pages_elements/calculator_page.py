@@ -2,22 +2,44 @@ class calculator:
     def __init__(self, driver):
         super().__init__()
         self.driver = driver
-        self.button_0 = '//*[text()="0"]'
-        self.button_1 = '//*[text()="1"]'
-        self.button_2 = '//*[text()="2"]'
-        self.button_3 = '//*[text()="3"]'
-        self.button_4 = '//*[text()="4"]'
-        self.button_5 = '//*[text()="5"]'
-        self.button_6 = '//*[text()="6"]'
-        self.button_7 = '//*[text()="7"]'
-        self.button_8 = '//*[text()="8"]'
-        self.button_9 = '//*[text()="9"]'
-        self.button_plus_minus = '//*[text()="+/-"]'
-        self.button_AC = '//*[text()="AC"]'
-        self.button_percent = '//*[text()="%"]'
-        self.button_equate = '//*[text()="="]'
-        self.button_plus = '//*[text()="+"]'
-        self.button_minus = '//*[text()="-"]'
-        self.button_multiplication = '//*[text()="x"]'
-        self.button_division = '//*[text()="÷"]'
-        self.result_component = '//*[@class="component-display"]'
+        self.button_0_xpath = '//*[text()="0"]'
+        self.button_1_xpath = '//*[text()="1"]'
+        self.button_2_xpath = '//*[text()="2"]'
+        self.button_3_xpath = '//*[text()="3"]'
+        self.button_4_xpath = '//*[text()="4"]'
+        self.button_5_xpath = '//*[text()="5"]'
+        self.button_6_xpath = '//*[text()="6"]'
+        self.button_7_xpath = '//*[text()="7"]'
+        self.button_8_xpath = '//*[text()="8"]'
+        self.button_9_xpath = '//*[text()="9"]'
+        self.button_plus_minus_xpath = '//*[text()="+/-"]'
+        self.button_AC_xpath = '//*[text()="AC"]'
+        self.button_percent_xpath = '//*[text()="%"]'
+        self.button_equate_xpath = '//*[text()="="]'
+        self.button_plus_xpath = '//*[text()="+"]'
+        self.button_minus_xpath = '//*[text()="-"]'
+        self.button_multiplication_xpath = '//*[text()="x"]'
+        self.button_division_xpath = '//*[text()="÷"]'
+        self.result_component_xpath = '//*[@class="component-display"]'
+
+
+    def button_7(self):
+        button_7 = self.driver.find_element_by_xpath(self.button_7_xpath)
+        button_7.click()
+        return self
+
+    def button_plus(self):
+        button_plus = self.driver.find_element_by_xpath(self.button_plus_xpath)
+        button_plus.click()
+        return self
+
+    def button_8(self):
+        button_8 = self.driver.find_element_by_xpath(self.button_8_xpath)
+        button_8.click()
+        return self
+
+    def button_equate(self):
+        button_equate = self.driver.find_element_by_xpath(self.button_equate_xpath)
+        button_equate.click()
+        return self
+
